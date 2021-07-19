@@ -19,3 +19,6 @@ Education:
 
 Code example:
 
+Languages
+  * English (C1)
+  * French (A2)
