@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+  }
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    background: #faf9f9;
+    color: #323232;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+a {
+    color: #1f3b77;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #277abd;
+    text-decoration: underline;
+}
+  
+.container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 32px;
+    background: #ffffff;
+}
+  
+section, 
+header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0;
+    border-bottom: 2px solid #c4c4c4;
+}
+    
+.section-title {
+    font-weight: bold;
+    font-size: 26px;
+}
+  
+.icon {
+    fill: currentColor;
+    display: inline-block;
+    font-size: inherit;
+    height: 2em;
+    overflow: visible;
+}
+  
+img.photo {
+    width: 260px;
+}
+  
+.my-name {
+    font-size: 50px;
+    line-height: 1;
+}
+  
+.my-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #587a96;
+}
+
+.my-contacts {
+    font-size: 24px;
+    color: #1f3b77;    
+}
+
+.school {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.school-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+footer img {
+    height: 35px;
+    opacity: 0.75;
+}
