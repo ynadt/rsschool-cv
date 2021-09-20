@@ -1,128 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset = "utf-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Rs school student CV">
-        <meta name="author" content="Yuliya Nadtacheyeva">
-        <title>Yuliya Nadtacheyeva CV</title>
-        <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap">
-        <link rel="stylesheet" href="./style.css">
-    </head>
 
-    <body>
-    <div class="container">
-        <header>
-            <div>
-                <div> <img class="photo" src="photo.jpg" alt="Photo"></div>
-            </div>
-            <div>
-                <h1 class="my-name">Yuliya Nadtacheyeva</h1>
-            <h3 class="my-title">Rolling Scopes School student</h3>
-            <div class="my-contacts">
-                <ul>
-                    <li>Minsk, Belarus</li>
-                    <li><a href="mailto:ynad2021@gmail.com">ynad2021@gmail.com</a></li>
-                    <li>Discord: Yna#9826</li>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuliya Nadtacheyeva CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="#about">About</a></li>
+                    <li><a class="menu__item" href="#education">Education</a></li>
+                    <li><a class="menu__item" href="#skills">Skills</a></li>
+                    <li><a class="menu__item" href="#languages">Languages</a></li>
+                    <li><a class="menu__item" href="#projects">Projects</a></li>
                 </ul>
             </div>
+
+            <nav class="nav">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#languages">Languages</a>
+                <a href="#projects">Projects</a>
+            </nav>
+
+            <div class="header__text">
+                <h1>Yuliya Nadtacheyeva</h1>
+                <h3>Rolling Scopes School student</h3>
             </div>
-        </header>
-   
-        <main>
-        <section>
-           <div class="section-title"><h4>ABOUT ME</h4></div>
-           <div>I`ve been a lawyer for 10+ years and now I`m a passionate student ready to master a new profession of JS/Front-end developer from scratch.
-            <br> Being a lawyer revolves around processing information, using data to make predictions and informed decisions, and problem solving. I believe it`s going to help me to master a new profession.</div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="dark-section">
+            <div class="container">
+                <div class="left-column">
+                    <img class="photo" src="./img/photo.jpg" alt="Photo">
+                </div>
+                <div class="right-column">
+                    <h4>About me</h4>
+                    <div class="about-text">I`ve been a lawyer for 10+ years and now I`m a passionate student ready to
+                        master a new
+                        profession of JS/Front-end developer from scratch.<br>
+                        Being a lawyer revolves around processing information, using data to make predictions and
+                        informed decisions, and problem solving. I believe it`s going to help me to master a new
+                        profession.</div>
+                    <h4>Contact details</h4>
+                    <ul class="contacts">
+                        <li>Minsk, Belarus</li>
+                        <li><a href="mailto:ynad2021@gmail.com">ynad2021@gmail.com</a></li>
+                        <li>Discord: Yna#9826</li>
+                    </ul>
+                </div>
+            </div>
         </section>
- 
-        <section>
-              <div class=section-title><h4>EDUCATION</h4></div>
-        <div>            
-            <div class="school">
-            <div class=”school-container”>
-               <div>
-                  <div>RS School, JavaScript/Front-end course</div>
-                  <div>Student</div>
+
+        <section id="education">
+            <div class="container">
+                <div class="left-column">
+                    <h4>Education</h4>
                 </div>
-                <div><h5>June 2021 - ...</h5></div>
-            </div>
-            </div>
-                
-           <div class="school">
-           <div class=”school-container”>
-               <div>
-                  <div> Academy of Public Administration, Minsk</div>
-                  <div> Master of Laws </div>
+                <div class="right-column">
+                    <h5>RS School, JS/FE PRE-SCHOOL</h5>
+                    <a title="Click to check it" href="https://app.rs.school/certificate/ugu2dxwu"
+                        target="_blank">Certificate of Completion</a>
+                    <p class="education-date">June 2021 - September 2021</p>
+
+                    <h5>Academy of Public Administration, Minsk</h5>
+                    <p>Master of Laws</p>
+                    <p class="education-date">Sep 2012 - Jun 2013</p>
+
+                    <h5>Academy of Public Administration, Minsk</h5>
+                    <p>Bachelor of Public Administration and Law</p>
+                    <p class="education-date">Sep 2007 - Jun 2012</p>
                 </div>
-                <div> <h5> Sep 2012 - Jun 2013</h5></div>
             </div>
-            </div>
-        
-            <div class="school"> 
-            <div class=”school-container”>
-             <div>
-                  <div> Academy of Public Administration, Minsk</div>
-                  <div> Bachelor of Public Administration and Law </div>
-                </div>
-                <div><h5> Sep 2007 - Jun 2012</h5></div>
-            </div>
-            </div>
-        </div>
         </section>
-        
-    <section>
-        <div class="section-title"><h4>SKILLS AND ABILITIES</h4></div>
-        <div>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-            <ul>
-                <li>Critical thinking</li>
-                <li>Emotional intelligence</li>
-                <li>Self-management</li>
-                <li>Reliability</li>
-            </ul>
-        </div>
-    </section>
 
-    <section>
-        <div class="section-title"><h4>LANGUAGES</h4></div>
-        <div>
-            <ul>
-                 <li>Russian (Native)</li>
-                 <li>English (C1)</li>
-                 <li>French (A2)</li>
-             </ul>
-        </div>
-    </section>
+        <section id="skills" class="dark-section">
+            <div class="container">
+                <div class="left-column">
+                    <h4>Skills</h4>
+                </div>
+                <div class="right-column">
+                    <div class="skills-right-column">
+                        <ul class="tech-skills">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                        </ul>
+                        <ul>
+                            <li>Critical thinking</li>
+                            <li>Emotional intelligence</li>
+                            <li>Self-management</li>
+                            <li>Reliability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section>
-        <div class="section-title"><h4>CODE EXAMPLE</h4></div>
-        <div>
-            <pre><code>    &lt;section&gt;
-                &lt;div class=&quot;section-title&quot;&gt;&lt;h4&gt;SKILLS AND ABILITIES&lt;/h4&gt;&lt;/div&gt;
-                &lt;div class=&quot;skills-container&quot;&gt;
-                    &lt;ul&gt;
-                        &lt;li&gt;HTML&lt;/li&gt;
-                        &lt;li&gt;CSS&lt;/li&gt;
-                    &lt;/ul&gt;
-                 &lt;/div&gt;
-            &lt;/section&gt;</code></pre>
-        </div>
-    </section>
-    </main>      
+        <section id="languages">
+            <div class="container">
+                <div class="left-column">
+                    <h4>Languages</h4>
+                </div>
+                <div class="right-column">
+                    <ul>
+                        <li>Russian (Native)</li>
+                        <li>English (C1)</li>
+                        <li>French (A2)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-        <footer>
-            <a class="icon" title="My github account" href="https://github.com/ynad2021"><img src="github.svg" alt="My github account">
-            </a><br>
+        <section id="projects" class="dark-section">
+            <div class="container">
+                <div class="left-column">
+                    <h4>Projects</h4>
+                </div>
+                <div class="right-column">
+                    <h4>Code Example</h4>
+                    <pre><code class="javascript">function createPhoneNumber(numbers){
+        let str = numbers.join('');
+        return `(${str.slice(0,3)}) ${str.slice(3,6)}
+        -${str.slice(6,10)}`;
+      }</code></pre>
+                    <div>Check my Github account for <a href="https://github.com/ynad2021">MORE.</a></div>
+                    <div class="project-example">
+                        <a title="Click to check it"
+                            href="https://rolling-scopes-school.github.io/ynad2021-JSFEPRESCHOOL/museum"
+                            target="_blank">
+                            <figure>
+                                <img src="./img/welcome-bg.jpg" alt="Image of main page of the Museum website">
+                                <figcaption>
+                                    Louvre Landing Page
+                                </figcaption>
+                            </figure>
+                        </a>
+                        <div class="project-example-text">
+                            The Museum task at JS/FE PRE-SCHOOL 2021 <p>(HTML, CSS)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a title="My github account" href="https://github.com/ynad2021">
+                <img class="git-icon" src="./img/github.svg" alt="My github account">
+            </a>
             <a title="RS school" href="https://rs.school/js/">
-                <img class="icon" src="https://rs.school/images/rs_school_js.svg" alt="JavaScript/Front-end course">
-                </a><br>
-                <time datetime="2021">2021</time>
-           </footer>
-    </div>
-    </body>
+                <img class="rs-icon" src="./img/rs_school_js.svg" alt="JavaScript/Front-end course">
+            </a>
+            <time datetime="2021">2021</time>
+        </div>
+    </footer>
+
+</body>
+
 </html>
