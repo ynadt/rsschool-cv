@@ -30,7 +30,7 @@ video {
   border: 0;
   font-size: 100%;
   vertical-align: baseline;
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 body {
@@ -364,7 +364,6 @@ figcaption {
     height: 150px;
   }
 }
-
 
 @media (max-width: 450px) {
   body {
